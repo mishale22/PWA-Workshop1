@@ -1,0 +1,191 @@
+body{
+font-family: 'Fjalla One', sans-serif;
+background: #e0e0e0;
+}
+
+.everything{
+	margin:150px;
+	border:5px solid black;
+	background: #fff9c4;	
+}
+
+.top{
+	height: 300px;
+	weight:500px;
+	position:relative;
+	top:25px;
+	
+}
+
+.bottom{
+	border-top: 2px solid #e0e0e0;
+	height: 550px;
+}
+.icons{
+ position: relative;
+ left:830px;
+ height:20px ;
+ color: #bdbdbd;
+ margin-bottom: 10px;
+}
+
+.icons i{
+	padding-right: 18px;
+	padding-top: 5px;
+}
+
+#pic{
+	width:230px ;
+	position: relative;
+	left:25px;
+	border:5px solid #e0e0e0;
+	border-radius: 5px;
+}
+
+.name{
+	position: relative;
+	left: 300px;
+	bottom: 180px;
+}
+
+#fullname{
+	font-size: 26px ;
+	font-weight: 20px;
+	margin-bottom: 0;
+}
+
+#carreer{
+	margin-top: 0;
+	font-size: 22px ;
+	font-weight: 20px;
+	color:#2196F3;
+}
+
+.info{
+	height:150px;
+	position:relative;
+	left:780px;
+	bottom:270px;
+	line-height: 1.8;
+}
+
+.about-me p{
+	font-size: 20px ;
+	position:relative;
+	bottom:250px;
+	padding:15px;
+	margin: 0 auto;
+}
+.employment{
+	margin-right:410px;
+	margin-left:15px;
+	height:250px ;
+}
+
+.employment-barra p{
+	background: black;
+	color:#ffff;
+}
+
+.education{
+	margin-right:410px;
+	margin-left:15px;
+}
+
+.education-barra p{
+	background: black;
+	color:#ffff;
+}
+
+.employment-options{
+	margin-bottom:10px ;
+	height: 100px;
+}
+.date{
+	color:#bdbdbd;
+	position:relative;
+	left: 500px;
+	bottom:35px;
+	font-size: 20px;
+}
+
+.u{
+	font-size: 20px;
+	position:relative;
+	left:35px;
+	bottom:85px;
+}
+.ocup{
+	font-size: 15px;
+	position:relative;
+	left:35px;
+	bottom:100px;
+	color: #bdbdbd;
+}
+
+.do{
+	position:relative;
+	bottom:100px;
+}
+
+.container {
+  width: 100%;
+  height: 25px;
+  background-color: #ddd; 
+  margin-bottom:1px;
+}
+
+.skills {
+  text-align: right;
+  height: 25px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 70%; background-color: #2196F3;} 
+.java {width: 90%; background-color: #f44336;} 
+.c{width: 50%; background-color: #ffff00;} 
+
+.programming-skills{
+  position: relative;
+  height: 100px;
+  width: 250px;
+  bottom:450px;
+  left:750px;
+}
+
+.programming-skills p{
+	margin:0;
+}
+
+.graphic-skills{
+  position: relative;
+  height: 100px;
+  width: 250px;
+  bottom:320px;
+  left:750px;
+}
+
+.square{
+	height: 10px;
+  	width: 10px;
+	background-color:#4CAF50;
+}
+
+.gskill div{
+	float:left;
+	margin: 0 5px;
+}
+
+.language-skills{
+	position: relative;
+  	height: 100px;
+ 	width: 250px;
+  	bottom:280px;
+ 	left:750px;
+}
+
+.language p{
+	float:left;
+	margin:0 10px 0 0;
+}
