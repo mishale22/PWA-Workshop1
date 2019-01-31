@@ -18,7 +18,7 @@ background: #e0e0e0;
 
 .bottom{
 	border-top: 2px solid #e0e0e0;
-	height: 650px;
+	height: 680px;
 	margin:0;
 	padding: 0;
 }
@@ -80,7 +80,7 @@ background: #e0e0e0;
 
 .bottom-left{
 	position: relative;
-	bottom:550px ;
+	bottom:600px ;
 }
 .employment{
 	margin-right:410px;
@@ -158,14 +158,14 @@ margin:0;
 padding: 0;
 position: relative;
 bottom: 20px;
+left:680px;
 }
 
 .programming-skills{
   position: relative;
-  height: 300px;
-  width: 250px;
+  height: 350px;
+  width: 290px;
   top:50px;
-  left:750px;
   overflow: scroll;
 }
 
@@ -174,20 +174,19 @@ bottom: 20px;
 	position: static;
 }
 
+.input:focus {
+	border: 3px solid #2980b9;
+}
+
 .programming-skills input{
-	padding: 0px 5px;
-    height: 45px;
-	font-size: 20px;
-	padding: 10px;
+	padding: 15px;
+	font-size: 18px;
 	margin:0;
 	box-sizing: border-box;
 	border: 3px solid rgba(0,0,0,0);
 	color: #2980b9;
 }
 
-.programming-skills input:focus{
-	border: 3px solid #2980b9;
-}
 
 .programming-skills ul{
 	list-style: none;
@@ -205,7 +204,6 @@ bottom: 20px;
 	height: 40px;
 	line-height: 40px;
 	transition: 0.2s linear;
-
 }
 
 .completed{
@@ -216,7 +214,6 @@ bottom: 20px;
   position: relative;
   width: 250px;
   top:70px;
-  left:750px;
 }
 
 .square{
@@ -234,7 +231,6 @@ bottom: 20px;
 	position: relative;
   	height: 100px;
   	top:90px;
- 	left:750px;
 }
 
 .language p{
