@@ -4,14 +4,13 @@ background: #e0e0e0;
 }
 
 .everything{
-	margin:150px;
+	margin:50px 150px 150px 150px;
 	border:5px solid black;
-	background: #fff9c4;	
+	background: #fffde7;	
 }
 
 .top{
 	height: 300px;
-	weight:500px;
 	position:relative;
 	top:25px;
 	
@@ -19,19 +18,21 @@ background: #e0e0e0;
 
 .bottom{
 	border-top: 2px solid #e0e0e0;
-	height: 550px;
+	height: 650px;
+	margin:0;
+	padding: 0;
 }
 .icons{
  position: relative;
  left:830px;
- height:20px ;
+ height:15px ;
  color: #bdbdbd;
  margin-bottom: 10px;
 }
 
 .icons i{
-	padding-right: 18px;
-	padding-top: 5px;
+	padding-right: 10px;
+	padding-top: 10px;
 }
 
 #pic{
@@ -76,10 +77,16 @@ background: #e0e0e0;
 	padding:15px;
 	margin: 0 auto;
 }
+
+.bottom-left{
+	position: relative;
+	bottom:550px ;
+}
 .employment{
 	margin-right:410px;
 	margin-left:15px;
 	height:250px ;
+	
 }
 
 .employment-barra p{
@@ -132,7 +139,7 @@ background: #e0e0e0;
   width: 100%;
   height: 25px;
   background-color: #ddd; 
-  margin-bottom:1px;
+  margin-bottom:5px;
 }
 
 .skills {
@@ -146,23 +153,69 @@ background: #e0e0e0;
 .java {width: 90%; background-color: #f44336;} 
 .c{width: 50%; background-color: #ffff00;} 
 
+.bottom-right{
+margin:0;
+padding: 0;
+position: relative;
+bottom: 20px;
+}
+
 .programming-skills{
   position: relative;
-  height: 100px;
+  height: 300px;
   width: 250px;
-  bottom:450px;
+  top:50px;
   left:750px;
+  overflow: scroll;
 }
 
 .programming-skills p{
 	margin:0;
+	position: static;
+}
+
+.programming-skills input{
+	padding: 0px 5px;
+    height: 45px;
+	font-size: 20px;
+	padding: 10px;
+	margin:0;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	color: #2980b9;
+}
+
+.programming-skills input:focus{
+	border: 3px solid #2980b9;
+}
+
+.programming-skills ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.programming-skills i{
+	position: relative;
+	float: left;
+	margin-right:10px;
+}
+
+.delete{
+	height: 40px;
+	line-height: 40px;
+	transition: 0.2s linear;
+
+}
+
+.completed{
+	text-decoration: line-through;
 }
 
 .graphic-skills{
   position: relative;
-  height: 100px;
   width: 250px;
-  bottom:320px;
+  top:70px;
   left:750px;
 }
 
@@ -180,8 +233,7 @@ background: #e0e0e0;
 .language-skills{
 	position: relative;
   	height: 100px;
- 	width: 250px;
-  	bottom:280px;
+  	top:90px;
  	left:750px;
 }
 
